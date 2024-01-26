@@ -378,6 +378,14 @@ body {
   padding-block: 15px;
 }
 
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .alert {
+    /* Add your mobile-specific styles here */
+    margin-bottom: 40px; /* Adjust the margin value as needed */
+  }
+}
+
 .header-top {
   position: absolute;
   bottom: 0;
@@ -1015,7 +1023,7 @@ body {
    * HERO
    */
 
-  .hero-card { padding-inline: 70px; }
+  .hero-card { padding-inline: 70px; height: 1000px; }
 
   .hero-text { max-width: 30ch; }
 
